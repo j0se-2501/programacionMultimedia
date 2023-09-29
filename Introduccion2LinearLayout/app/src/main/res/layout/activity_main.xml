@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/columna1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/columna2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/columna2_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_green_dark" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna2_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_orange_light" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna2_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_red_light" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna2_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_blue_dark" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna2_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_purple" ></LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/columna3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/columna4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/columna4_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/darker_gray" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna4_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_orange_dark" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna4_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_red_dark" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna4_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_blue_light" ></LinearLayout>
+        <LinearLayout
+            android:id="@+id/columna4_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@android:color/white" ></LinearLayout>
+    </LinearLayout>
+</LinearLayout>
