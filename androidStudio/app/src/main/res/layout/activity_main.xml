@@ -37,7 +37,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Matemáticas"
+        android:text="Programación móvil"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -49,7 +49,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Física"
+        android:text="Programación de servicios y procesos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
@@ -61,7 +61,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Química"
+        android:text="Acceso a datos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
 
